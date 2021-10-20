@@ -26,4 +26,5 @@ function findLongestWord(str) {
 }
 
 var sentence = "I love to go the beach"
+
 findLongestWord(sentence);
