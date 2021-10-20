@@ -15,9 +15,9 @@ Step 6: Return the longestWord
 */
 
 function findLongestWord(str) {
-  var arrayOfWords = str.split(" ");
-  var longestWord = "0";
-  for(var i = 0; i < arrayOfWords.length; i++) {
+  let arrayOfWords = str.split(" ");
+  let longestWord = "0";
+  for(let i = 0; i < arrayOfWords.length; i++) {
     if(arrayOfWords[i].length > longestWord.length) {
       longestWord = arrayOfWords[i]; 
     }
@@ -25,6 +25,6 @@ function findLongestWord(str) {
   return console.log(longestWord);
 }
 
-var sentence = "I love to go the beach"
+let sentence = "I love to go the beach"
 
 findLongestWord(sentence);
