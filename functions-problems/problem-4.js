@@ -27,4 +27,4 @@ function checkPalindrome(str) {
   return true;
 }
 
-console.log(checkPpalindrome("A man, a plan, a canal. Panama"));
+console.log(checkPalindrome("A man, a plan, a canal. Panama"));
