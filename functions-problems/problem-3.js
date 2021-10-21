@@ -5,24 +5,26 @@ the function will count the number of occurrences of the specified letter within
 Step 1: Define a function that accepts two arguments: a string (str) and a letter (ltr).
 Step 2: Split the string passed in (str), and turn it into an array of each individual letter. Name
 it arrayOfLetters.
-Step 3: Lowercase the letter (ltr) passed in.
-Step 4: Define a variable called numberOfOccurences and set its initial value to 0.
-Step 5: Set a loop through the arrayOfLetters.
-Step 6: Check if the current letter of our loop is the letter passed in (ltr).
-Step 7: Increase the numberOfOccurrences by one for every letter in our loop that's the letter passed in (ltr).
-Step 8: Return the numberOfOccurrences.
+Step 3: Define a variable called lowerCaseString and lowercase the string (str) passed in.
+Step 4: Define a variable called lowerCaseLetter and lowercase the lletter (ltr) passed in.
+Step 5: Define a variable called numberOfOccurences and set its initial value to 0.
+Step 6: Set a loop through the arrayOfLetters.
+Step 7: Check if the current letter of our loop is the letter passed in.
+Step 8: Increase the numberOfOccurrences by one for every letter in our loop that's the letter passed in.
+Step 9: Return the numberOfOccurrences.
 */
 
-const findOccurrences = function(str, ltr) {
-	let arrayOfLetters = str.split("");
-    ltr = ltr.toLowerCase();
-    let numberOfOccurrences = 0;
-	for(i = 0; i < arrayOfLetters.length; i++) {
-		if(str[i].includes(ltr)) {
-			numberOfOccurrences ++
-		}
- 	}
- 	return console.log(numberOfOccurrences);
+const findOccurrences = function (str, ltr) {
+  const arrayOfLetters = str.split('');
+  let lowerCaseString = str.toLowerCase();
+  let lowerCaseLetter = ltr.toLowerCase();
+  let numberOfOccurrences = 0;
+  for (i = 0; i < arrayOfLetters.length; i++) {
+    if (lowerCaseString[i].includes(lowerCaseLetter)) {
+	numberOfOccurrences ++ 
+    }
+  }
+  return numberOfOccurrences;
 }
 
-findOccurrences("JavaScript is fun", "A");
+findOccurrences ('JavaScript is fun', 'A');
