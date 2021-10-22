@@ -16,10 +16,10 @@ Step 9: Return the numberOfOccurrences.
 
 const findOccurrences = function (str, ltr) {
   const arrayOfLetters = str.split('');
-  let lowerCaseString = str.toLowerCase();
-  let lowerCaseLetter = ltr.toLowerCase();
+  const lowerCaseString = str.toLowerCase();
+  const lowerCaseLetter = ltr.toLowerCase();
   let numberOfOccurrences = 0;
-  for (i = 0; i < arrayOfLetters.length; i++) {
+  for (i = 0; i < lowerCaseString.length; i++) {
     if (lowerCaseString[i].includes(lowerCaseLetter)) {
 	numberOfOccurrences ++ 
     }

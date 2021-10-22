@@ -16,10 +16,10 @@ Step 9: Return the numberOfVowels
 
 function vowelsInString (str) { 
   const arrayOfLetters = str.split('');
-  let lowerCaseString = str.toLowerCase();
+  const lowerCaseString = str.toLowerCase();
   const vowels = ['a', 'e', 'i', 'o', 'u']; 
   let numberOfVowels = 0;
-  for (let i = 0; i < arrayOfLetters.length; i++) {
+  for (let i = 0; i < lowerCaseString.length; i++) {
     if (vowels.includes(lowerCaseString[i])) {
       numberOfVowels++;
     }

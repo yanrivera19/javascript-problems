@@ -13,18 +13,33 @@ Step 7: Return true.
 */
 
 
-const checkPalindrome = str => {
-  let regex = /[^A-Za-z0-9]/g;
-  let lowerRegexString= str.toLowerCase().replace(regex, '');
-  let len = lowerRegexString.length;
+const isPalindrome = str => {
+  const regex = /[^A-Za-z0-9]/g;
+  const lowerRegexString= str.toLowerCase().replace(regex, '');
+  const len = lowerRegexString.length;
   for (let i = 0; i < len/2; i++) {
     if (lowerRegexString[i] !== lowerRegexString[len - 1 - i]) {
-      console.log('The string is NOT a palindrom');
       return false;
     }
   }
-  console.log('The string is a palindrome');
   return true;
 }
 
-checkPalindrome ('A man, a plan, a canal. Panama');
+isPalindrome ('A man, a plan, a canal. Panama');
+
+/*
+Another way of doing it:
+
+const isPalindrome = str => {
+  const regex = /[^A-Za-z0-9]/g;
+  const lowRegexString = str.toLowerCase().replace(regex, '');
+  const revString = lowRegexString.length.split('').reverse().join('');
+  if (lowRegexString === revString) {
+    return true;
+  } else {
+      return false;
+    }
+}
+
+isPalindrome('A man, a plan, a canal. Panama');
+*/
