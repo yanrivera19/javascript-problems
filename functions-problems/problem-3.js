@@ -25,6 +25,6 @@ const findOccurrences = function (str, ltr) {
     }
   }
   return numberOfOccurrences;
-}
+};
 
 findOccurrences ('JavaScript is fun', 'A');
