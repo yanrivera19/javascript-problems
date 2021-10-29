@@ -10,7 +10,7 @@ Step 6: Log into the console the noDuplicate array.
 
 const arrayOfNumbers = [1,2,2,4,5,4,7,8,7,3,6];
 let noDuplicate = [];  
-arrayOfNumbers.forEach((number) => {  
+arrayOfNumbers.forEach( number => {  
    if(!noDuplicate.includes(number)){  
       noDuplicate.push(number);  
    }  
