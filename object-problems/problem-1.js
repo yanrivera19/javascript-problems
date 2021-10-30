@@ -1,4 +1,7 @@
 /*
+Create a sample object, then write a JavaScript function that deletes the property of an object passed to it.
+Your JavaScript function should take in two parameters, the object and the key/property you want to delete.
+
 Step 1: Create a sample object.
 Step 2: Create a function that deletes a property of an object that is passed to it.
 Step 3: The function must take in two parameters, the object and the property to be deleted.
