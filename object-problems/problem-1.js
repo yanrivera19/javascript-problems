@@ -12,7 +12,7 @@ Step 5: Return the object passed in that now doesn't have the property that was 
 Step 6: Call the function with the arguments to be passed in.
 */
 
-let movies = {
+const movies = {
 	name: "Dune",
 	director: "Denis Villeneuve",
 	cinematography: "Greig Fraser",
