@@ -1,4 +1,7 @@
 /*
+Create an HTML page with a dropdown list with three items in it, then write a JavaScript function 
+that displays the number of items and displays the item in the list.
+
 Step 1: Create an HTML page and add a dropdown list using "select" element with three items in it.
 Step 2: Add a button element that will run the function when clicked.
 Step 3: Write a JS function that displays the number of items and the items in the dropdown list.

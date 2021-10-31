@@ -1,4 +1,7 @@
 /*
+Create a basic HTML page with a table and two rows in it.
+Then, write a JavaScript function to add rows to a table.
+
 Step 1: Create a basic HTML Page.
 Step 2: Add a table with two rows in it.
 Step 3: Write a JavaScript function on the js file to add rows to the table.
@@ -22,6 +25,4 @@ const addRows = function () {
 	cell2.innerHTML = 9;
 	cell3.innerHTML = 11;
 	cell4.innerHTML = 61;
-}
-
-addRows();
+};
