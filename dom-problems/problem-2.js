@@ -12,6 +12,7 @@ Step 6: Create a variable called "link" to get the href attribute of the anchor 
 the getAttribute property.
 Step 7: Display the value of the href attribute to its parent element ("p") by assigning the value of
 the link variable to the innerHTML of the p element.
+*/
  
 const getAttr = function() {
 	let link = document.getElementById("w3Link").getAttribute("href");
