@@ -11,8 +11,8 @@ Step 5: Add a button element that will run the function when clicked.
 Step 6: Create a JavaScript function called getAttr that gets the HREF attribute of the anchor element. 
 Step 7: Create a variable called "link" to get the href attribute of the anchor element , by using
 the getAttribute property.
-Step 8: Display the value of the href attribute to its parent element ("p") by assigning the value of
-the link variable to the innerHTML of the p element.
+Step 8: Display the value of the href attribute to the parent element ("p") by selecting the p element 
+and then assigning the value of the link variable to the innerHTML of the p element.
 */
  
 const getAttr = function() {
