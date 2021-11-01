@@ -6,8 +6,12 @@ Step 1: Create a basic HTML page.
 Step 2: Connect the HTML file with the JavaScript file with a "script" 
 element linking the JavaScript file.
 Step 3: Add a "p" element and give it the id "p1".
-Step 4: On the JavaScript file, create a variable called bgColor and assign 
-to it a program to add a background color to "p1" using the style property.
+Step 4: On the JavaScript file, create a variable called bgColor.
+Step 5: In the variable we will first select the element we want to manipulate (p) 
+by its Id name ("p1") using the getElementById method. 
+Step 6: We then use the style property in order to set the CSS style that we want to set 
+to our element. We then use the CSS property backgroundColor and assign it to "blue".
 */
 
 let bgColor = document.getElementById("p1").style.backgroundColor = "blue";
+
