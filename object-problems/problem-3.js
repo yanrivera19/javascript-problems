@@ -12,13 +12,13 @@ to be returned.
 Step 5: Log it into the console.
 */
 
-let people = {
+const people = {
     firstName: "John",
     lastName: "Reeves",
     age: 32,
   };
 
-function lengthObj (obj) {
+function lengthObj(obj) {
   console.log(Object.keys(obj).length);  
 }
 
