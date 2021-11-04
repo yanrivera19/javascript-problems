@@ -6,9 +6,8 @@ Step 2: Create a function called isIncluded that takes in an object and
 a key as parameters.
 Step 3: Check if the key that's passed in is included in the object that's passed in. We use 
 the Objects.key method to return the object's properties in an array, and use the includes property
-to check if the key passed in is included in the object passed in. Store this in a variable called
-objIncludesKey.
-Step 4: Return objIncludesKey.
+to check if the key passed in is included in the object passed in. 
+Step 4: Return this whole statement.
 */
 
 
