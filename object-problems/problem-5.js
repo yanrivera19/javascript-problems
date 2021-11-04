@@ -11,7 +11,7 @@ JavaScript sorts uppercase letters before lowercase letters.
 Step 4: Use the sort method on the movies array and have the sortArray function as the callback function.
 */
 
-const movies = [ 
+const books = [ 
 
    { author: 'Bill Gates', title: 'The Road Ahead', libraryID: 1254},
 
@@ -33,5 +33,5 @@ const sortArray = function(a, b) {
    }
 };
 
-movies.sort(sortArray);
+books.sort(sortArray);
 
