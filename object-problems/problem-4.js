@@ -19,8 +19,7 @@ const cars = {
   };
 
 function isIncluded (obj, key) {
-  const objIncludesKey = Object.keys(obj).includes(key);
-  return objIncludesKey;
+  return Object.keys(obj).includes(key);
 };
 
 console.log(isIncluded(cars, "year"));
