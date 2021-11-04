@@ -22,16 +22,16 @@ const movies = [
    ];
 
 const sortArray = function(a, b) {
-  const titleA = a.title.toUpperCase(); 
-  const titleB = b.title.toUpperCase(); 
-  if (titleA < titleB) {
-    return -1;
-  }
-  if (titleA > titleB) {
-    return 1;
+   const titleA = a.title.toUpperCase(); 
+   const titleB = b.title.toUpperCase(); 
+   if (titleA < titleB) {
+     return -1;
+   } else if (titleA > titleB) {
+     return 1;
+   } else {
+     return 0;
    }
-   return 0;
-  };
+};
 
 movies.sort(sortArray);
 
