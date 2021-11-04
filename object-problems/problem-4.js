@@ -12,10 +12,10 @@ Step 4: Return this whole statement.
 
 
 const cars = {
-    model: "Corvette",
-    year: "1986",
-    color: "white",
-  };
+  model: "Corvette",
+  year: "1986",
+  color: "white",
+};
 
 function isIncluded (obj, key) {
   return Object.keys(obj).includes(key);
