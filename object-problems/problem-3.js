@@ -13,10 +13,10 @@ Step 5: Log it into the console.
 */
 
 const people = {
-    firstName: "John",
-    lastName: "Reeves",
-    age: 32,
-  };
+  firstName: "John",
+  lastName: "Reeves",
+  age: 32,
+};
 
 function lengthObj(obj) {
   console.log(Object.keys(obj).length);  
